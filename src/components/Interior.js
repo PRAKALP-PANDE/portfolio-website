@@ -24,21 +24,21 @@ const Interior = () => {
 
     return (
         <div className="body-font">
-            <div className="container pl-5 pr-8 py-10 mx-auto flex flex-wrap">
+            <div className="container py-6 mx-auto flex flex-wrap">
                 <div className="flex flex-col">
                     <div className="h-1 bg-gray-200 rounded overflow-hidden">
                         <div className="w-24 h-full bg-[#622c00]"></div>
                     </div>
-                    <div className="flex w-full mb-20 flex-wrap py-6">
-                        <h1 className="sm:text-3xl text-2xl font-medium title-font lg:w-1/3 lg:mb-0 mb-4">Interior</h1>
-                        <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed">“Our designs dance in the interplay of light and shadow, where every detail is deliberate, and every form has meaning. We celebrating the beauty of simplicity, unburdened by excess, and making way for brilliance to emerge from the void.</p>
+                    <div className="flex w-full mb-20 flex-wrap py-2 px-2">
+                        <h1 className="sm:text-3xl text-2xl font-medium title-font lg:w-1/3 lg:mb-0 mb-1">Interior</h1>
+                        <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-lg">“Our designs dance in the interplay of light and shadow, where every detail is deliberate, and every form has meaning. We celebrating the beauty of simplicity, unburdened by excess, and making way for brilliance to emerge from the void.</p>
                     </div>
                 </div>
                 <div className="container px-5 mx-auto">
                     <div className="flex flex-wrap -m-4">
                         {images.map((image, index) => (
-                            <div key={index} className="hover:opacity-70 lg:w-1/4 md:w-1/2 p-4 w-full">
-                                <Link className="block relative h-48 rounded overflow-hidden"
+                            <div key={index} className="hover:opacity-70 lg:w-1/4 md:w-1/2 p-2 w-full">
+                                <Link className="block relative h-full w-full rounded overflow-hidden"
                                     to={{
                                         pathname: `/detail/${encodeURIComponent(image.src)}`,
                                     }}
