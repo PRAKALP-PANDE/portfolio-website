@@ -13,7 +13,7 @@ const SliderImg = () => {
 
     return (
         <div>
-            <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
+            <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 py-2">
                 <Carousel>
                     <img className="lg:h-full md:h-full w-full object-contain" src={HomeImage1} alt="..." />
                     {/* <img className="lg:h-48 md:h-36 w-full object-contain" src={HomeImage1} alt="..." />
