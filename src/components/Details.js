@@ -13,11 +13,11 @@ const Details = () => {
     return (
         <div>
             <div className="text-gray-600 body-font overflow-hidden">
-                <div className="container px-5 py-24 mx-auto">
+                <div className="container px-5 py-6 mx-auto">
                     <div className="lg:w-4/5 mx-auto flex flex-wrap">
-                        <div className="flex flex-wrap w-1/2">
-                            <div className="md:p-2 p-1 w-full">
-                                <img className="w-full h-full object-contain block" src={image1} id="mainImg" alt="MainImage" />
+                        <div className="flex flex-wrap md:w-1/2 h-1/2">
+                            <div className="md:p-2 w-full">
+                                <img className="w-full h-96 object-contain block" src={image1} id="mainImg" alt="MainImage" />
                             </div>
                             <div className="md:p-2 p-1 w-1/2">
                                 <img
@@ -37,7 +37,7 @@ const Details = () => {
                             </div>
                         </div>
 
-                        <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+                        <div className="lg:w-1/2 w-full lg:pl-10 lg:py-2 mt-2 lg:mt-0">
                             <h2 className="text-sm title-font text-gray-500 tracking-widest">{heading}</h2>
                             <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">{subheading}</h1>
                             <p className="leading-relaxed">{description}</p>
