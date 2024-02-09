@@ -17,19 +17,19 @@ const Architecture = () => {
 
   return (
     <div className="body-font">
-      <div className="container pl-5 pr-16 py-14 mx-auto">
+      <div className="container pl-5 pr-16 py-6 mx-auto">
         <div className="flex flex-col">
           <div className="h-1 bg-gray-200 rounded overflow-hidden">
             <div className="w-24 h-full bg-[#622c00]"></div>
           </div>
-          <div className="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
+          <div className="flex flex-wrap sm:flex-row flex-col py-1 mb-12">
             <h1 className="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">Architecture</h1>
-            <p className="sm:w-3/5 leading-relaxed text-2xl sm:pl-10 pl-0">Our designs dance in the interplay of light and shadow, where every detail is deliberate, and every form has meaning. We celebrating the beauty of simplicity, unburdened by excess, and making way for brilliance to emerge from the void.</p>
+            <p className="sm:w-3/5 leading-relaxed text-lg sm:pl-10 pl-0">Our designs dance in the interplay of light and shadow, where every detail is deliberate, and every form has meaning. We celebrating the beauty of simplicity, unburdened by excess, and making way for brilliance to emerge from the void.</p>
           </div>
         </div>
         <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
           {images.map((image, index) => (
-            <div key={index} className="p-4 md:w-1/3 sm:mb-0 mb-6">
+            <div key={index} className="px-4 py-1 md:w-1/3 sm:mb-0 mb-6">
               <div className="rounded-lg h-96 overflow-hidden">
                 <Link to={{
                   pathname: `/detail/${encodeURIComponent(image.src)}`,
