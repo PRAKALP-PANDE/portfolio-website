@@ -3,7 +3,7 @@ import logo from "../assets/logo.png"
 
 const Navbar2 = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const [activeSection, setActiveSection] = useState('');
+    const [activeSection, setActiveSection] = useState('home');
 
     const handleMenuToggle = () => {
         setIsMenuOpen(!isMenuOpen);
@@ -72,7 +72,7 @@ const Navbar2 = () => {
                     className={` flex items-center p-2 text-gray-500 my-4 rounded-lg hover:text-[#622c00] hover:border-b-8 border-[#622c00] group ${activeSection === 'contact' ? 'active' : ''}`}>
                     Contact
                 </a>
-                <div className="h-3/4 w-10 absolute inset-x-44 -inset-y-2 flex items-center justify-center">
+                <div className="h-5/6 w-10 absolute inset-x-44 -inset-y-2 flex items-center justify-center">
                     <div className="h-full w-4 rounded-b-lg bg-[#622c00] pointer-events-none"></div>
                 </div>
             </nav>
