@@ -65,12 +65,12 @@ const Home2 = () => {
         <div className="flex flex-col justify-center items-center">
             <section className={`home container px-5 ${activeSection === 'home' ? 'fly-in-element' : ''}`} id="home">
                 <div className="text-gray-600 body-font">
-                    <div className="py-14 mx-auto flex flex-col">
+                    <div className="py-2 mx-auto flex flex-col">
                         <div className="mx-auto">
                             <SliderImg />
                             <div className="text-gray-600 body-font">
                                 <div className="container px-5 py-14 mx-auto">
-                                    <div className="flex flex-wrap -mx-4 -mb-10 text-center">
+                                    <div className="flex flex-wrap -mx-4 text-center">
                                         <div className="sm:w-1/2 mb-10 px-4">
                                             <div className="rounded-lg h-64 overflow-hidden">
                                                 <img alt="content" className="object-contain h-full w-full" src={HL} />
