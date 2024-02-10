@@ -17,7 +17,7 @@ const Architecture = () => {
 
   return (
     <div className="body-font">
-      <div className="container pl-5 pr-16 py-6 mx-auto">
+      <div className="container px-4 py-6 mx-auto">
         <div className="flex flex-col">
           <div className="h-1 bg-gray-200 rounded overflow-hidden">
             <div className="w-24 h-full bg-[#622c00]"></div>

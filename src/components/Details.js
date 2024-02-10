@@ -13,7 +13,7 @@ const Details = () => {
     return (
         <div>
             <div className="text-gray-600 body-font overflow-hidden">
-                <div className="container px-5 py-6 mx-auto">
+                <div className="container px-5 md:py-6 py-8 mx-auto">
                     <div className="lg:w-4/5 mx-auto flex flex-wrap">
                         <div className="flex flex-wrap md:w-1/2 h-1/2">
                             <div className="md:p-2 w-full">

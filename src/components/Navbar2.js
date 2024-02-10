@@ -51,7 +51,7 @@ const Navbar2 = () => {
                 {/* <h1 className="text-2xl font-bold">PKSD</h1> */}
             </a>
             <nav className={`md:flex md:flex-col md:p-2 md:w-64 navbar block h-full px-3 py-4 overflow-y-auto space-y-2 font-medium  bg-[#f1d29c] ${isMenuOpen ? 'block' : 'hidden'}`}>
-                <a href="#home" className={`flex items-center p-2 text-gray-500 my-4 rounded-lg hover:text-[#622c00] hover:border-b-8 border-[#622c00] group ${activeSection === 'home' ? 'active' : ''}`}>
+                <a href="/#home" className={`flex items-center p-2 text-gray-500 my-4 rounded-lg hover:text-[#622c00] hover:border-b-8 border-[#622c00] group ${activeSection === 'home' ? 'active' : ''}`}>
                     Home
                 </a>
                 <a
