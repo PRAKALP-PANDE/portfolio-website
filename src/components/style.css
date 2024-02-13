@@ -91,3 +91,7 @@ body {
     filter: blur(5px);
     /* Adjust the duration and easing as needed */
 }
+
+.fullw{
+    width: 26rem;
+}

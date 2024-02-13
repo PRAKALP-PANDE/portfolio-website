@@ -38,11 +38,12 @@ const Navbar2 = () => {
         };
     }, []);
     return (
-        <div className={`p-2 flex flex-col md:w-64 lg:w-64 fixed md:h-screen lg:h-screen z-50 ${isMenuOpen ? 'bg-[#f1d29c] w-64 h-screen' : ''}`}>
-            <div className="lg:hidden md:hidden w-96 p-2 -mt-2 bg-[#f1d29c]">
+        <div className={`py-2 flex flex-col md:w-64 lg:w-64 fixed md:h-screen lg:h-screen z-50 ${isMenuOpen ? 'bg-[#f1d29c] w-64 h-screen' : ''}`}>
+            <div className="lg:hidden md:hidden mr-2 py-2 -mt-2 fullw bg-[#f1d29c]">
                 <svg xmlns="http://www.w3.org/2000/svg" onClick={handleMenuToggle} className="cursor-pointer w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                 </svg>
+                <span className="px-1">{activeSection}</span>
             </div>
 
             <a href="/#" className={`md:flex items-center pl-3 mb-14 mt-4 ${isMenuOpen ? 'block' : 'hidden'}`}>
