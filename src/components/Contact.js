@@ -64,37 +64,9 @@ const Contact = () => {
             });
 
     };
-    // Send data to server using axios
-    // axios.post('https://sheetdb.io/api/v1/zcwbzp6kdjw8d', formData)
-    //     .then((response) => {
-    //         console.log('Data submitted successfully:', response.data);
-    //         // Clear form fields after successful submission
-    //         setName('');
-    //         setLname('');
-    //         setEmail('');
-    //         setPhone('');
-    //         setMessage('');
-    //     })
-    //     .catch((error) => {
-    //         console.error('Error submitting form data:', error);
-    //     });
-
-    // // Display success message using toast
-    // toast.success('Form submitted successfully', {
-    //     position: "top-right",
-    //     autoClose: 5000,
-    //     hideProgressBar: false,
-    //     closeOnClick: true,
-    //     pauseOnHover: true,
-    //     draggable: true,
-    //     progress: undefined,
-    //     theme: "light",
-    // });
-
-
 
     return (
-        <div className="text-black body-font relative">
+        <div className="text-[#622c00] body-font relative">
             <div className="container px-5 py-8 mx-auto">
                 <div className="h-1 bg-gray-200 rounded overflow-hidden mb-6">
                     <div className="w-24 h-full bg-[#622c00]"></div>
@@ -120,36 +92,36 @@ const Contact = () => {
                         <div className="flex flex-wrap -m-2">
                             <div className="p-2 w-1/2">
                                 <div className="relative">
-                                    <label className="leading-7 text-sm text-black">First Name*</label>
+                                    <label className="leading-7 text-sm text-[#622c00]">First Name*</label>
                                     <input type="text" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-[#622c00] focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" onChange={(e) => setName(e.target.value)} value={name} required />
                                 </div>
                             </div>
                             <div className="p-2 w-1/2">
                                 <div className="relative">
-                                    <label className="leading-7 text-sm text-black">Last Name*</label>
+                                    <label className="leading-7 text-sm text-[#622c00]">Last Name*</label>
                                     <input type="text" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-[#622c00] focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" onChange={(e) => setLname(e.target.value)} value={lname} required />
                                 </div>
                             </div>
                             <div className="p-2 w-1/2">
                                 <div className="relative">
-                                    <label className="leading-7 text-sm text-black">Company Email*</label>
+                                    <label className="leading-7 text-sm text-[#622c00]">Company Email*</label>
                                     <input type="email" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-[#622c00] focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" onChange={(e) => setEmail(e.target.value)} value={email} required />
                                 </div>
                             </div>
                             <div className="p-2 w-1/2">
                                 <div className="relative">
-                                    <label className="leading-7 text-sm text-black">Phone Number*</label>
+                                    <label className="leading-7 text-sm text-[#622c00]">Phone Number*</label>
                                     <input type="phone" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-[#622c00] focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" onChange={(e) => setPhone(e.target.value)} value={phone} required />
                                 </div>
                             </div>
                             <div className="p-2 w-full">
                                 <div className="relative">
-                                    <label className="leading-7 text-sm text-black">Message*</label>
+                                    <label className="leading-7 text-sm text-[#622c00]">Message*</label>
                                     <textarea className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-[#622c00] focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" onChange={(e) => setMessage(e.target.value)} value={message} required></textarea>
                                 </div>
                             </div>
                             <div className="p-2 w-full">
-                                <button className="flex mx-auto text-[#622c00] bg-[#f1d29c] border-[#622c00] border-2 py-2 px-8 focus:outline-none hover:bg-[#622c00] hover:text-white rounded text-lg" type="submit" >Submit</button>
+                                <button className="flex mx-auto text-[#622c00] bg-[#f1d29c] border-[#622c00] border-2 py-2 px-8 focus:outline-none hover:bg-[#622c00] hover:text-[#f1d29c] rounded text-lg" type="submit" >Submit</button>
                             </div>
                             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                                 <span href="/" className="text-[#622c00]">parthkumbhar269@gmail.com</span>
